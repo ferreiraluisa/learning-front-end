@@ -1,0 +1,17 @@
+-> Parar mudar varias linhas de codigo ao mesmo tempo:
+aperta alt e seleciona onde quer mudar
+
+->como fazer tab ao contrario num texto muito grande:
+shift + tab
+
+->na hora de escrever o local de arquivo, como "voltar" de pasta:
+ex.: html-css/exercices/ex001/paginas
+se eu tiver em paginas e querem pegar o arquivo index.hmtl que esta na pasta ex001, eh so escrever ../index.html
+
+->para botar tag html no texto ja escrito:
+seleciona o texto, aperta ctrl+shift+p, seleciona wrap with abreviation e escreve a tag.
+
+->codigo do favicon:
+link:favicon
+
+->ctrl+espaco seleciona os arquivos da pasta para referenciar 
