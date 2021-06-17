@@ -1,0 +1,12 @@
+{Resumo e algumas anotações de CSS}
+
+    -->Representação das cores no CSS
+    1 - pelo próprio nome 
+    2 - pelo código hexadecimal
+# _ _ _ _ _ _ dois primeiro espaços representam a quantidade de vermelho, os dois do meio a quantidade de verde e os dois últimos de azul
+1 2 3 4 5 6 7 8 9 A B C D E F, 00 = representa a ausência e FF= representa a presença total, ou seja 
+o código hexadecimal da cor vermelha é #FF000, da cor verde é #00FF00 e da cor azul é #0000FF
+    3 - rgb(x,y,z) , onde 0<=x,y,z<=255
+
+    -->Algumas propriedades importantes!
+    1 - display :inline-block; para a largura ocupar apenas o que está escrito

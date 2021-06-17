@@ -1,0 +1,31 @@
+#banner{
+    width: 100%;
+}
+
+.descricao{
+    padding: 5%;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+h3{
+    font-style: bold;
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+	margin-right: 15%;
+}
+
+li{
+    font-style: italic;
+}
+
+#beneficios{
+    width:50%;
+}
+
+
