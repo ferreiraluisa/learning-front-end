@@ -1,0 +1,87 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 45%;
+	right: 5%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{  /*quando o mouse estiver passando por cima do elemento nav a*/
+	color: #C78C19;
+	text-decoration: underline;
+	font-size:25px;
+}
+
+.produtos{
+	width: 65%;
+	margin: 0 auto;
+	padding: 1% 0;
+}
+
+.produtos li{
+	width:30%;
+	text-align: center;
+	display:inline-block;
+	padding: 2% 0;
+	margin: 4% 1%;
+	border: 2px solid black;
+	border-radius: 5%;
+}
+
+.produtos h2{
+	font-weight: bold;
+	font-size: 170%
+}
+
+.produtos li:hover{ /*quando o mouse estiver passando por cima do elemento produtos li*/
+	border:2px solid #C78C19;
+}
+
+.produtos li:hover h2{ /*quando for para mudar uma tag dentro de outra tag !!!!*/
+	font-size: 200%;
+}
+
+.produtos li:active{  /*quando o mouse estiver clicar no elemento produtos li*/
+	border: 2px solid #088c19;
+}
+
+.preco{
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.descricao{
+	font-size:110%;
+	padding: 2% 0;
+}
+
+footer {
+	text-align: center;
+	background: url("img/bg.jpg");
+	padding: 50% 0;
+} 
+footer p{
+	color: white;
+}

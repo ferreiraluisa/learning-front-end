@@ -1,0 +1,67 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 60%;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 45%;
+	right: 5%;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{  /*quando o mouse estiver passando por cima do elemento nav a*/
+	color: #C78C19;
+	text-decoration: underline;
+	font-size:25px;
+}
+
+#banner{
+    width: 100%;
+}
+
+.descricao{
+    padding: 5%;
+    text-align: center;
+    background-color: #CCCCCC;
+}
+
+h3{
+    font-style: bold;
+    text-align: center;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+	margin-right: 15%;
+}
+
+li{
+    font-style: italic;
+}
+
+#beneficios{
+    width:50%;
+}
+
+
