@@ -1,7 +1,11 @@
 //condicionais
 if(condicao){
     comandos;
-} else{
+} 
+else if(condicao){
+    comandos;
+}
+else{
     comandos;
 }
 
@@ -15,6 +19,9 @@ if(condicao){
         for(count = 0; condicao; count++){
 
         };
+    //operadores que manipula os lacos
+    break; //para a iteracao, mata o laco
+    continue; //vai para a proxima iteracao
 
 //Date
 var d = new Date//(pega a data atual)
