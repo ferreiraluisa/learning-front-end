@@ -1,0 +1,27 @@
+CURSO EM VIDEO - JAVASCRIPT (comentario em js com // ou /* */)
+
+2 formas de conectar com o html! 
+1- dentro do proprio arquivo html com o codigo escrito dentro da tag <script></script>
+2- num arquivo js separado, escrevendo <script type="text/javascript" src="local_do_arquivo"></script> no final do body ou na head 
+
+
+>3 tipos de janela:
+
+window.alert('mensagem') -> mostra na tela uma mensagem
+window.confirm('mensagem') -> parece o alerta mas tem como confirmar ou cancelar
+window.prompt('mensagem') -> tem como o usuario interagir(input)
+
+>Concatenar strings e variaveis: "Oi" + nome
+
+>Modificacoes de strings
+nome.toUpperCase() : botar todas as letras em maiusculas
+nome.toLowerCase() : botar todas as letras em minisculas 
+
+>Testar o js no painel de desenvolvedor do navegador:
+console.log('mensagem');
+abre a página do console
+
+>Variaveis(espaco de memoria ai ai coisa basica)
+como declara variavel em javaScript? pode usar acento nos nomes da variavel
+tipagem dinamica, na hora de declarar nao preciso especificar o tipo dela
+var nome = "Luisa"

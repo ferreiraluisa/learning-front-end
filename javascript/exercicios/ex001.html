@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script type="text/javascript" src="ex001.js"></script>
+    <title>Document</title>
+</head>
+<body onload="load()">
+    <button class="btn-success" onclick="botao()">clica aqui</button>
+    <h3 id="agradece" onclick="redirecionar()"></h3>
+    <h3 id="mouseover" onmouseover="trocar()" onmouseout="voltar()">Passe o mouse aqui</h3>
+
+    <select id="luisa" class="form-select" onchange="selecionar(this)">
+        <option value="">selecione</option>
+        <option value = "comprar">comprar</option>
+        <option value = "alugar">alugar</option>
+        <option value = "indiferente">indiferente</option>
+        
+    </select>
+    
+    <p id="change"></p>
+</body>
+</html>
