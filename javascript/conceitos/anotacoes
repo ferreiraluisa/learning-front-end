@@ -25,3 +25,15 @@ abre a página do console
 como declara variavel em javaScript? pode usar acento nos nomes da variavel
 tipagem dinamica, na hora de declarar nao preciso especificar o tipo dela
 var nome = "Luisa"
+
+3 TIPOS DE ESCOPOS EM JAVASCRIPT = 
+
+//escopo global
+
+{
+    //escopo de bloco
+}
+
+function(){
+    
+}
