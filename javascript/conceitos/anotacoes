@@ -37,3 +37,10 @@ var nome = "Luisa"
 function(){
     
 }
+
+
+COMPARACOES EM JAVASCRIPT:
+3'=' -> ve se as variaveis sao do mesmo tipo para depois comparar se sao iguais
+2'=' -> converte pro mesmo tipo e so depois compara se as variaveis sao iguais 
+1 === '1' false
+1 == '1' true
