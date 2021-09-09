@@ -2,7 +2,7 @@
 
 var nomeVar = 'Luisa';
 let nomeLet = 'Luisa';
-const nomeConst = 'Luisa';
+const nomeConst = 'Luisa'; //tem que declarar na hora 
 
 console.log(` nomeVar : ${nomeVar}`);
 console.log(` nomeLet : ${nomeLet}`);
